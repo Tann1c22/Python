@@ -8,6 +8,8 @@ def pow(A, B):
     else:
         return pow(A, B - 1) * A
 
+print("Введите первое число: ")
 A = int(input())
+print("Введите второе число: ")
 B = int(input())
 print(pow(A, B))
